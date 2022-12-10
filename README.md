@@ -1,13 +1,1 @@
-# Westagram FrontEnd Team#5
-
-## 팀원
-
-이승훈, 강루비, 김지원, 안나라
-
-## 프로젝트명
-
-위스타그램 클론코딩
-
-## 작업내용
-
-220821 초기세팅
+# Westagram FrontEnd UI Clone
