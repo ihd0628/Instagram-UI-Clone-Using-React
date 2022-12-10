@@ -2,34 +2,31 @@ import React from 'react';
 import Btn from './components/Btn';
 
 function LoginForm({
-  saveUserId,
-  inputId,
-  saveUserPw,
-  inputPw,
   goToMain,
-  isLoginBtnDisable,
-  usedInputHandler,
   loginRequest,
+  saveUserInput,
+  userInput,
+  isDisable,
 }) {
   return (
-    <form className="inputBox" id="inputBox">
+    <form className="inputBox">
       <input
-        id="idBox"
         type="text"
         placeholder="전화번호, 사용자 이름 또는 이메일"
-        onChange={saveUserId}
-        value={inputId}
+        onChange={saveUserInput}
+        value={userInput.email}
+        name="email"
       />
       <input
-        id="passwordBox"
         type="password"
         placeholder="비밀번호"
-        onChange={saveUserPw}
-        value={inputPw}
+        onChange={saveUserInput}
+        value={userInput.password}
+        name="password"
       />
       <Btn
         goToMain={goToMain}
-        isLoginBtnDisable={isLoginBtnDisable}
+        isDisable={isDisable}
         loginRequest={loginRequest}
       />
     </form>

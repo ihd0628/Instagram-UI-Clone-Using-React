@@ -2,7 +2,7 @@ import React from 'react';
 
 function ProfileBox(props) {
   return (
-    <div className="profileBox_hidden" id="profileBox">
+    <div className="profileBox_hidden">
       <div className="profileBox_triangle" />
       <div className="profileBox_content modal">
         <div className="profile modal">
