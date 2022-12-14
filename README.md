@@ -1,4 +1,3 @@
-# westagram-frontend
 
 
 <br />
